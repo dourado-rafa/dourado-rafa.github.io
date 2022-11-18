@@ -1,0 +1,27 @@
+body {
+    background-color: #A7DBE8;
+}
+h1 {
+    width: 100%;
+
+    margin: 1vh 0;
+
+    text-align: center;
+    font-size: 20vw;
+    color: #FFA44F;
+    text-shadow: 0.75vw 0.75vw rgb(29, 36, 41, 0.2);
+}
+
+.perfil {
+    width: 40vw;
+    height: 40vw;
+}
+.mascote {
+    position: absolute;
+    z-index: -1;
+
+    right: 5vw;
+    
+    width: 30vw;
+    height: 30vw;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {font-family: 'Ubuntu', 'Noto Sans Georgian', sans-serif;}
+h1 {font-family: 'Concert One', 'Fredoka One', sans-serif;}
+
+button {
+    border: 0;
+    background-color:  transparent;
+}
+
+/* Classes de organização */
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.centralizada {
+    justify-content: center;
+    align-items: center;
+}
+.alinhada {
+    justify-content: space-between;
+    align-items: center;
+}
+.espacada {
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Classes de estilo */
+.botao_grande {
+    width: 40vw;
+    height: 40vw;
+    
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 2.5vw;
+    border: 0.5vw solid black;
+    border-radius: 5vw;
+    
+    font-size: 5vw;
+    text-align: center;
+
+    background-color: #ffe2b8;
+    box-shadow: 1.5vw 1.5vw 0.5rem 1vw rgb(29, 36, 41, 0.2);
+}
+.botao_grande img {
+    width: 25vw;
+    height: 25vw;
+}
+
+.botao_emocao{
+    width: 15vw;
+    height: 15vw;
+}
+.botao_emocao img {
+    width: 100%;
+}
+.perfil {
+    background-color: #ffe2b8;
+    border: black 1vw solid;
+    border-radius: 100%;
+    box-shadow: 1.5vw 1.5vw 0.5rem 1vw rgb(29, 36, 41, 0.2);
+
+}
